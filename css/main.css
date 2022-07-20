@@ -2184,7 +2184,7 @@ input::-moz-focus-inner {
 }
 
 .hero-social a {
-  color: rgba(255, 255, 255, 0.3);
+  color: #B5E2FA;
   transition: all .5s;
 }
 
