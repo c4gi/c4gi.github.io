@@ -73,7 +73,6 @@
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
-    height: auto;
   }
 
 }
@@ -84,7 +83,6 @@
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
-    height: auto;
   }
 
 }
@@ -3279,8 +3277,8 @@ html.no-csstransitions .hero-content {
   }
 
   .footer-logo img {
-    width: 116px;
-    height: 30px;
+    width: 150px;
+    height: 150px;
   }
 
 }
