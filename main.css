@@ -3279,8 +3279,8 @@ html.no-csstransitions .hero-content {
   }
 
   .footer-logo img {
-    width: 116px;
-    height: 116px;
+    width: 100%;
+    height: 100%;
   }
 
 }
