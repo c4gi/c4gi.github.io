@@ -3131,8 +3131,8 @@ html.no-csstransitions .hero-content {
 
 .footer-logo a {
   display: block;
-  height: 150px;
-  width: 150px;
+  height: 12vw;
+  width: 12vw;
 }
 
 .footer-logo img {
@@ -3280,7 +3280,7 @@ html.no-csstransitions .hero-content {
 
   .footer-logo img {
     width: 116px;
-    height: 116px;
+    height: 30px;
   }
 
 }
