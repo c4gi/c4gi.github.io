@@ -3130,13 +3130,14 @@ html.no-csstransitions .hero-content {
 }
 
 .footer-logo a {
+  display: block;
   height: 150px;
   width: 150px;
 }
 
 .footer-logo img {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /* -------------------------------------------------------------------
@@ -3278,8 +3279,9 @@ html.no-csstransitions .hero-content {
   }
 
   .footer-logo img {
-    width: 116px;
-    height: 30px;
+    display: block;
+    width: 150px;
+    height: 150px;
   }
 
 }
