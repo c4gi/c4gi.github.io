@@ -3130,7 +3130,7 @@ html.no-csstransitions .hero-content {
 }
 
 .footer-logo a {
-  display: flex;
+  display: block;
   height: 150px;
   width: 150px;
 }
@@ -3268,6 +3268,19 @@ html.no-csstransitions .hero-content {
   .ss-go-top {
     bottom: 0;
     right: 0;
+  }
+
+}
+
+@media screen and (max-width:400px) {
+  .btn--footer {
+    display: block;
+    margin-right: 0;
+  }
+
+  .footer-logo img {
+    width: 116px;
+    height: 30px;
   }
 
 }
