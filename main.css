@@ -3272,19 +3272,6 @@ html.no-csstransitions .hero-content {
 
 }
 
-@media screen and (max-width:400px) {
-  .btn--footer {
-    display: block;
-    margin-right: 0;
-  }
-
-  .footer-logo img {
-    width: 116px;
-    height: 30px;
-  }
-
-}
-
 
 /* ===================================================================
  * # page styles and page components 
