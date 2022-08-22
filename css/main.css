@@ -1381,7 +1381,7 @@ input::-moz-focus-inner {
  * ## alert box
  * ------------------------------------------------------------------- */
 .alert-box {
-  padding: 1rem 4rem 1rem 1rem;
+  padding: 1rem 9rem 1rem 1rem;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -2089,6 +2089,7 @@ input::-moz-focus-inner {
 .no-js .s-hero {
   background: #F9F7F3;
 }
+
 
 /* -------------------------------------------------------------------
  * ## hero left bar
