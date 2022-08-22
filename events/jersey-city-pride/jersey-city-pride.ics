@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220822T214433Z
+UID:1661202499731-84678@ical.marudot.com
+DTSTART;TZID=America/New_York:20220827T130000
+DTEND;TZID=America/New_York:20220827T210000
+SUMMARY:Jersey City Pride
+URL:https://c4gi.github.io/Jersey%2520City%2520Pride
+DESCRIPTION:Join The Campaign For Gender Inclusivity at the Jersey City Pride Festival on August 27th!\n\nReturning will be the Equality Pride March from City Hall to our main stage on Newark and Jersey Ave. at 1 PM to kick off the event. Expect lots of entertainment\, dancing\, and many Instagramable moments to share with your friends and family. Jersey City Pride invites you to put on your best Pride gear and come on out and celebrate Pride like only Jersey City knows how to do. Keep an eye out for C4GI's booth! We can't wait to see you there.\n\nVisit jerseycitypride.com to learn more! 
+LOCATION:134-158 Newark Ave\, Jersey City\, NJ 07302
+END:VEVENT
+END:VCALENDAR
