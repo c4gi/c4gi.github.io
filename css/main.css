@@ -1418,7 +1418,7 @@ input::-moz-focus-inner {
   content: '';
   position: absolute;
   display: inline-block;
-  width: 2px;
+  width: 2.5px;
   height: 12px;
   top: 0;
   left: 5px;
