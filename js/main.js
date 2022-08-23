@@ -44,6 +44,14 @@
     };
 
 
+   /* Quick Exit
+    * -------------------------------------------------- */
+	document.body.addEventListener("keydown", function (event) {
+	    if (event.key === "Escape") {
+		window.location.replace("https://www.google.com");
+	    }
+	});
+
    /* Mobile Menu
     * ---------------------------------------------------- */ 
     const ssMobileMenu = function() {
