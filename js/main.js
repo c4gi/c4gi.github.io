@@ -52,7 +52,7 @@
 		    }
 		});
 
-		document.addEventListener('touchend', function (evt) {
+		window.addEventListener('Touch', function (evt) {
 		    if (evt.detail === 3) {
 			window.location.replace("http://google.com");
 		    }
