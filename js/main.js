@@ -53,9 +53,7 @@
 		});
 
 		window.addEventListener('touchstart', function (evt) {
-		    if (evt.detail === 3) {
-			window.location.replace("http://google.com");
-		    }
+		    alert("tap detected");
 		});
 
 
