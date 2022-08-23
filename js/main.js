@@ -52,9 +52,9 @@
 		    }
 		});
 
-		window.addEventListener('touchstart', function (evt) {
-		    if (evt.detail === 1) {
-			alert("http://google.com");
+		window.addEventListener('touchend', function (evt) {
+		    if (evt.detail === 3) {
+			window.location.replace("http://google.com");
 		    }
 		});
 
