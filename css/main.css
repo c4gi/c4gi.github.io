@@ -1381,20 +1381,26 @@ input::-moz-focus-inner {
  * ## alert box
  * ------------------------------------------------------------------- */
 .alert-box {
-  padding: 1rem 9rem 1rem 1rem;
+  z-index: 400;
+  padding: 3.5rem 9rem 0rem 3.5rem;
   position: fixed;
-  bottom: 0;
-  right: 0;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  margin-right: 1rem;
-  margin-left: 1rem;
-  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
   font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 1.5rem;
+  font-weight: 400;
+  font-size: 1.7rem;
   line-height: 1.6;
   max-width: 50rem;
+  min-height: 20rem;
+}
+
+.alert-box span, .span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.6;
 }
 
 .alert-box__close {
@@ -1467,6 +1473,7 @@ input::-moz-focus-inner {
 .alert-box--notice .alert-box__close::after {
   background-color: #827217;
 }
+
 
 /* -------------------------------------------------------------------
  * ## pagination

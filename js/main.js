@@ -46,11 +46,12 @@
 
    /* Quick Exit
     * -------------------------------------------------- */
-	document.body.addEventListener("keydown", function (event) {
-	    if (event.key === "Escape") {
-		window.location.replace("https://www.google.com");
-	    }
-	});
+		window.addEventListener('click', function (evt) {
+		    if (evt.detail === 3) {
+			window.location.replace("http://google.com");
+		    }
+		});
+
 
    /* Mobile Menu
     * ---------------------------------------------------- */ 
