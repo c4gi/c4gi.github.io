@@ -54,9 +54,9 @@
 		});
 
 		window.addEventListener('touchstart', function (event) {
-                    preventDefault()
+                    preventDefault();
 		    if (event.detail === 2) {
-                        preventDefault()
+                        preventDefault();
 			return: false;
 		    }
 		    if (event.detail === 3) {
