@@ -53,27 +53,16 @@
 		    }
 		});
 
-		window.addEventListener("touchstart", tapHandler)
-
-		var tappedTwice = false;
-		var tappedThrice = false;
-
-		function tapHandler(event) {
-                    event.preventDefault();
-		    if(!tappedTwice) {
-			tappedTwice = true;
-			setTimeout( function() { tappedTwice = false; }, 600 );
-			return false;
+		window.addEventListener('touchstart', function (event) {
+                    preventDefault()
+		    if (event.detail === 2) {
+                        preventDefault()
+			return: false;
 		    }
-                    event.preventDefault();
-		    if(!tappedThrice) {
-			tappedThrice = true;
-			setTimeout( function() { tappedThrice = false; }, 300 );
-			return false;
+		    if (event.detail === 3) {
+			window.location.replace("http://google.com");
 		    }
-		    event.preventDefault();
-                    window.location.replace("http://google.com");
-		 }
+		});
 
 
    /* Mobile Menu
