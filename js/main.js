@@ -46,15 +46,17 @@
 
    /* Quick Exit
     * -------------------------------------------------- */
+
 		window.addEventListener('click', function (evt) {
 		    if (evt.detail === 3) {
 			window.location.replace("http://google.com");
 		    }
 		});
 
-		window.addEventListener("touchstart", tapHandler);
+		window.addEventListener("touchstart", tapHandler)
 
 		var tapedTwice = false;
+		var tapedThrice = false;
 
 		function tapHandler(event) {
 		    if(!tapedTwice) {
@@ -62,9 +64,14 @@
 			setTimeout( function() { tapedTwice = false; }, 300 );
 			return false;
 		    }
+                    event.preventDefault();
+		    if(!tapedThrice) {
+			tapedThrice = true;
+			setTimeout( function() { tapedThrice = false; }, 300 );
+			return false;
+		    }
 		    event.preventDefault();
-		    //action on double tap goes below
-		    alert('You tapped me Twice !!!');
+                    window.location.replace("http://google.com");
 		 }
 
 
