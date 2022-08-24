@@ -47,27 +47,28 @@
    /* Quick Exit
     * -------------------------------------------------- */
 
-		window.addEventListener('click', function (evt) {
-		    if (evt.detail === 3) {
+		window.addEventListener('click', function (event) {
+		    if (event.detail === 3) {
 			window.location.replace("http://google.com");
 		    }
 		});
 
 		window.addEventListener("touchstart", tapHandler)
 
-		var tapedTwice = false;
-		var tapedThrice = false;
+		var tappedTwice = false;
+		var tappedThrice = false;
 
 		function tapHandler(event) {
-		    if(!tapedTwice) {
-			tapedTwice = true;
-			setTimeout( function() { tapedTwice = false; }, 300 );
+                    event.preventDefault();
+		    if(!tappedTwice) {
+			tappedTwice = true;
+			setTimeout( function() { tappedTwice = false; }, 600 );
 			return false;
 		    }
                     event.preventDefault();
-		    if(!tapedThrice) {
-			tapedThrice = true;
-			setTimeout( function() { tapedThrice = false; }, 300 );
+		    if(!tappedThrice) {
+			tappedThrice = true;
+			setTimeout( function() { tappedThrice = false; }, 300 );
 			return false;
 		    }
 		    event.preventDefault();
