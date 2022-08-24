@@ -53,6 +53,13 @@
 		    }
                 });
 
+		window.addEventListener('touchstart', function (event) {
+                    event.preventDefault();
+		    if (event.detail === 3) {
+			window.location.replace("http://google.com");
+		    }
+                });
+
 
    /* Mobile Menu
     * ---------------------------------------------------- */ 
