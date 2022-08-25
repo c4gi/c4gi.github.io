@@ -1491,7 +1491,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 @media screen and (max-width:600px) {
   .alert-box--notice--quickexit {
-    max-height: 0;
+    display: none;
   }
 
 }
