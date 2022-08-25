@@ -2950,6 +2950,22 @@ html.no-csstransitions .hero-content {
 
 }
 
+/* ===================================================================
+ * # call for educators
+ *
+ * ------------------------------------------------------------------- */
+.s-call-for-educators {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #EDDEA4;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.s-call-for-educators p, .p{
+  color: #0FA3B1;
+  font-weight: 350;
+}
+
 
 /* ===================================================================
  * # podcast
@@ -3479,12 +3495,12 @@ html.no-csstransitions .hero-content {
   background-image: url(../images/header-bgs/events-header.png);
 }
 
-.page-header--connect {
-  background-image: url(../images/header-bgs/connect-header-bg-2000.jpg);
-}
-
 .page-header--join-us {
   background-image: url(../images/header-bgs/join-us-header.jpg);
+}
+
+.page-header--call-for-educators {
+  background-image: url(../images/header-bgs/default-header.jpg);
 }
 
 .page-header__content {
