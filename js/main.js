@@ -53,13 +53,31 @@
 		    }
                 });
 
-		window.addEventListener('touchstart', function (event) {
-                    event.preventDefault();
-		    if (event.detail === 3) {
-			window.location.replace("http://google.com");
-		    }
-                });
+let numberOfTaps = 0;
 
+//just to show in screen
+const TapsText = document.getElementById("Taps");
+
+function secondsResetClick(seconds){
+  setTimeout(function(){
+    numberOfTaps = 0;
+  },seconds*1000)
+}
+
+//This is for click, but it would work in any listener
+window.addEventListener('touchstart', function () {
+  numberOfTaps += 1;
+  TapsText.textContent = numberOfTaps;
+  if (numberOfTaps === 3) {
+    numberOfTaps = 0;
+    TapsText.textContent = 'Third Click!';
+  }else if(numberOfTaps == 2){
+    // Define the seconds to wait
+    secondsResetClick(1);
+  }
+ //Just to show this example
+  
+});
 
    /* Mobile Menu
     * ---------------------------------------------------- */ 
