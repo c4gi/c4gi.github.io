@@ -1474,6 +1474,28 @@ input::-moz-focus-inner {
   background-color: #827217;
 }
 
+.alert-box--notice--quickexit {
+  background-color: #EDDEA4;
+  color: #7E6A19;
+}
+
+.alert-box--notice--quickexit .alert-box__close::before,
+.alert-box--notice--quickexit .alert-box__close::after {
+  background-color: #827217;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * alert boxes
+ * ------------------------------------------------------------------- */
+@media screen and (max-width:600px) {
+  .alert-box--notice--quickexit {
+    max-height: 0;
+  }
+
+}
+
 
 /* -------------------------------------------------------------------
  * ## pagination

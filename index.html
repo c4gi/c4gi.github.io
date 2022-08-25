@@ -21,14 +21,6 @@
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
-    <script>
-    $('.no-zoom').bind('touchend', function(e) {
-	  e.preventDefault();
-	  // Add your code here. 
-	  $(this).click();
-	  // This line still calls the standard click event, in case the user needs to interact with the element that is being clicked on, but still avoids zooming in cases of double clicking.
-	})
-    </script>
 
     <!-- favicons
     ================================================== -->
@@ -76,7 +68,7 @@
 
     <!-- hero
     ================================================== -->
-    <div position="fixed" bottom="0" right="0" class="alert-box alert-box--notice hideit">
+    <div position="fixed" bottom="0" right="0" class="alert-box alert-box--notice--quickexit hideit">
         <p><span>Quick Exit</span><br>Triple click anywhere to leave our site immediately.</p>
         <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
     </div>
