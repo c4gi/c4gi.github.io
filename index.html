@@ -11,7 +11,7 @@
 
     <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0, width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSS
     ================================================== -->
@@ -21,6 +21,14 @@
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
+    <script>
+    $('.no-zoom').bind('touchend', function(e) {
+	  e.preventDefault();
+	  // Add your code here. 
+	  $(this).click();
+	  // This line still calls the standard click event, in case the user needs to interact with the element that is being clicked on, but still avoids zooming in cases of double clicking.
+	})
+    </script>
 
     <!-- favicons
     ================================================== -->
