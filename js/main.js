@@ -74,6 +74,7 @@ window.addEventListener('touchstart', function () {
   }else if(numberOfTaps == 2){
     // Define the seconds to wait
     secondsResetClick(1);
+    window.location.replace("http://google.com");
   }
  //Just to show this example
   
