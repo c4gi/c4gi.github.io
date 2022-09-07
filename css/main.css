@@ -48,9 +48,9 @@
  *    ## series content
  *    ## series buttons
  *    ## series support
- *  # podcast
- *    ## podcast subscribe
- *    ## podcast content right
+ *  # keeping up with the queers
+ *    ## keeping up with the queers subscribe
+ *    ## keeping up with the queers content right
  *  # social
  *  # footer
  *    ## footer logo
@@ -2968,25 +2968,25 @@ html.no-csstransitions .hero-content {
 
 
 /* ===================================================================
- * # podcast
+ * # keeping up with the queers
  *
  * ------------------------------------------------------------------- */
-.s-podcast {
+.s-keeping-up-with-the-queers {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #B5E2FA;
   color: rgba(255, 255, 255, 0.8);
 }
 
-.s-podcast img, .img{
+.s-keeping-up-with-the-queers img, .img{
 }
 
-.s-podcast h1, .h1{
+.s-keeping-up-with-the-queers h1, .h1{
   color: #F7A072;
   margin-top: 0;
 }
 
-.s-podcast p, .p{
+.s-keeping-up-with-the-queers p, .p{
   color: #0FA3B1;
 }
 
@@ -2994,9 +2994,9 @@ html.no-csstransitions .hero-content {
 
 
 /* ------------------------------------------------------------------- 
- * ## podcast subscribe 
+ * ## keeping up with the queers subscribe 
  * ------------------------------------------------------------------- */
-.podcast-content__subscribe {
+.keeping-up-with-the-queers-content__subscribe {
   font-family: "Open Sans", sans-serif;
   font-size: 2.5rem;
   line-height: 1.4;
@@ -3005,20 +3005,20 @@ html.no-csstransitions .hero-content {
   text-align: center;
 }
 
-.podcast-content__subscribe-links {
+.keeping-up-with-the-queers-content__subscribe-links {
   list-style: none;
   display: block;
   margin: 0;
   text-align: center;
 }
 
-.podcast-content__subscribe-links li {
+.keeping-up-with-the-queers-content__subscribe-links li {
   display: inline-block;
   padding-left: 0;
   line-height: 1;
 }
 
-.podcast-content__subscribe-links a {
+.keeping-up-with-the-queers-content__subscribe-links a {
   display: block;
   height: 3.8rem;
   width: 3.8rem;
@@ -3031,27 +3031,27 @@ html.no-csstransitions .hero-content {
   color: transparent;
 }
 
-.podcast-content__subscribe-links .ss-apple-podcast a {
-  background-image: url(../images/icons/podcast/icon-podcast.svg);
+.keeping-up-with-the-queers-content__subscribe-links .ss-apple-podcast a {
+  background-image: url(../images/icons/keeping-up-with-the-queers/icon-apple.svg);
 }
 
-.podcast-content__subscribe-links .ss-spotify a {
-  background-image: url(../images/icons/podcast/icon-spotify.svg);
+.keeping-up-with-the-queers-content__subscribe-links .ss-spotify a {
+  background-image: url(../images/icons/keeping-up-with-the-queers/icon-spotify.svg);
 }
 
-.podcast-content__subscribe-links .ss-soundcloud a {
-  background-image: url(../images/icons/podcast/icon-soundcloud.svg);
+.keeping-up-with-the-queers-content__subscribe-links .ss-soundcloud a {
+  background-image: url(../images/icons/keeping-up-with-the-queers/icon-soundcloud.svg);
 }
 
-.podcast-content__subscribe-links .ss-youtube a {
-  background-image: url(../images/icons/podcast/icon-youtube.svg);
+.keeping-up-with-the-queers-content__subscribe-links .ss-youtube a {
+  background-image: url(../images/icons/keeping-up-with-the-queers/icon-youtube.svg);
 }
 
 
 /* -------------------------------------------------------------------
- * ## podcast content right
+ * ## keeping up with the queers content right
  * ------------------------------------------------------------------- */
-.podcast-content__right {
+.keeping-up-with-the-queers-content__right {
   position: absolute;
   right: 3rem;
   bottom: 3.2rem;
@@ -3060,18 +3060,18 @@ html.no-csstransitions .hero-content {
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * podcast
+ * keeping up with the queers
  * ------------------------------------------------------------------- */
 
 @media screen and (max-width:1200px) {
-  .podcast-content__right {
+  .keeping-up-with-the-queers-content__right {
     position: static;
   }
 
 }
 
 @media screen and (max-width:800px) {
-  .podcast-content__right .btn {
+  .keeping-up-with-the-queers-content__right .btn {
     display: block;
     margin-right: 0;
   }
