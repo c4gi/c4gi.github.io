@@ -3099,28 +3099,31 @@ html.no-csstransitions .hero-content {
 }
 
 .the-queer-quill-content-center {
-  position: static;
+  position: absolute;
   width: 40%;
-  margin-left: 3%;
-  margin-right: 3%;
-  text-align: center;
-}
-
-.the-queer-quill-content-right {
-  position: static;
-  width: 25%;
-  padding-left: 2%;
-  border-left: 1px solid #0FA3B1;
+  right: 30%;
+  left: 30%;
   text-align: center;
 }
 
 .the-queer-quill-content-left {
   position: static;
   width: 25%;
-  padding-right: 2%;
+  padding-right: 1%;
+  margin-right: 24%;
   border-right: 1px solid #0FA3B1;
   text-align: center;
- }
+}
+
+
+.the-queer-quill-content-right {
+  position: static;
+  width: 25%;
+  padding-left: 1%;
+  margin-left: 24%;
+  border-left: 1px solid #0FA3B1;
+  text-align: center;
+}
 
 .the-queer-quill-content li, .li {
   color: #F7A072;
@@ -3168,6 +3171,76 @@ html.no-csstransitions .hero-content {
  * responsive:
  * the queer quill
  * ------------------------------------------------------------------- */
+
+@media screen and (max-width:1200px) {
+
+  .the-queer-quill-content {
+    width: auto;
+    margin-right: 1.2rem;
+  }
+
+  .the-queer-quill-content-center {
+
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .the-queer-quill-content-left {
+     position: static;
+     width: 48%;
+     padding-right: 2%;
+     margin-right: 0;
+     border-right: 1px solid #0FA3B1;
+     text-align: center;
+   }
+
+
+  .the-queer-quill-content-right {
+    position: static;
+    width: 48%;
+    padding-left: 2%;
+    margin-left: 0;
+    border-left: 1px solid #0FA3B1;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width:800px) {
+  .the-queer-quill-content {
+  }
+
+  .the-queer-quill-content-center {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .the-queer-quill-content-left {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+    border-right: 0;
+    text-align: center;
+  }
+
+
+  .the-queer-quill-content-right {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    border-left: 0;
+    text-align: center;
+  }
+
+}
 
 
 /* ===================================================================
