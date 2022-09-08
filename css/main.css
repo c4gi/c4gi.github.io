@@ -3109,9 +3109,11 @@ html.no-csstransitions .hero-content {
 .the-queer-quill-content-left {
   position: static;
   width: 25%;
-  padding-right: 1%;
-  margin-right: 24%;
-  border-right: 1px solid #0FA3B1;
+  padding: 2%;
+  margin-right: 25%;
+  border-radius: 25px;
+  background-color: #EDDEA4;
+  background-opacity: 0.75;
   text-align: center;
 }
 
@@ -3119,9 +3121,11 @@ html.no-csstransitions .hero-content {
 .the-queer-quill-content-right {
   position: static;
   width: 25%;
-  padding-left: 1%;
-  margin-left: 24%;
-  border-left: 1px solid #0FA3B1;
+  padding: 2%;
+  margin-left: 25%;
+  border-radius: 25px;
+  background-color: #EDDEA4;
+  background-opacity: 0.75;
   text-align: center;
 }
 
@@ -3130,7 +3134,7 @@ html.no-csstransitions .hero-content {
 }
 
 .articles-list__topic-header {
-  color: #F7A072;
+  color: #;
 }
 
 .articles-list__item {
@@ -3176,11 +3180,9 @@ html.no-csstransitions .hero-content {
 
   .the-queer-quill-content {
     width: auto;
-    margin-right: 1.2rem;
   }
 
   .the-queer-quill-content-center {
-
     position: static;
     width: 100%;
     margin-left: auto;
@@ -3190,9 +3192,10 @@ html.no-csstransitions .hero-content {
   .the-queer-quill-content-left {
      position: static;
      width: 48%;
-     padding-right: 2%;
-     margin-right: 0;
-     border-right: 1px solid #0FA3B1;
+     padding: 1%;
+     margin: 0;
+     margin-left: auto;
+     margin-right: auto;
      text-align: center;
    }
 
@@ -3200,9 +3203,10 @@ html.no-csstransitions .hero-content {
   .the-queer-quill-content-right {
     position: static;
     width: 48%;
-    padding-left: 2%;
-    margin-left: 0;
-    border-left: 1px solid #0FA3B1;
+    padding: 1%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
   }
 
@@ -3224,8 +3228,6 @@ html.no-csstransitions .hero-content {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 0;
-    border-right: 0;
     text-align: center;
   }
 
@@ -3235,8 +3237,6 @@ html.no-csstransitions .hero-content {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0;
-    border-left: 0;
     text-align: center;
   }
 
