@@ -51,6 +51,8 @@
  *  # keeping up with the queers
  *    ## keeping up with the queers subscribe
  *    ## keeping up with the queers content right
+ *  # the queer quill
+ *    ## front page
  *  # social
  *  # footer
  *    ## footer logo
@@ -3077,6 +3079,95 @@ html.no-csstransitions .hero-content {
   }
 
 }
+
+/* ===================================================================
+ * # the queer quill
+ *
+ * ------------------------------------------------------------------- */
+.s-the-queer-quill {
+
+}
+
+
+/* -------------------------------------------------------------------
+ * ## the queer quill content
+ * ------------------------------------------------------------------- */
+.the-queer-quill-content {
+  padding-top: 20vh;
+  padding-bottom: 18vh;
+  position: relative;
+}
+
+.the-queer-quill-content-center {
+  position: static;
+  width: 40%;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: center;
+}
+
+.the-queer-quill-content-right {
+  position: static;
+  width: 25%;
+  padding-left: 2%;
+  border-left: 1px solid #0FA3B1;
+  text-align: center;
+}
+
+.the-queer-quill-content-left {
+  position: static;
+  width: 25%;
+  padding-right: 2%;
+  border-right: 1px solid #0FA3B1;
+  text-align: center;
+ }
+
+.the-queer-quill-content li, .li {
+  color: #F7A072;
+}
+
+.articles-list__topic-header {
+  color: #F7A072;
+}
+
+.articles-list__item {
+  margin-bottom: 4rem;
+  min-width: 100%;
+}
+
+.articles-list__item-title a {
+  color: #0FA3B1;
+  font-size: 2.1rem;
+  border-bottom: 1px solid transparent;
+}
+
+.articles-list__item-title a:hover,
+.articles-list__item-title a:focus {
+  color: #0FA3B1;
+  border-bottom: 1px solid #0FA3B1;
+}
+.articles-list__item p, .p {
+  color: #F7A072;
+}
+
+.articles-list__meta {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  color: #000000;
+  margin-left: 0;
+  border-top: 1px solid #B5E2FA;
+}
+
+
+/* -------------------------------------------------------------------
+ * responsive:
+ * the queer quill
+ * ------------------------------------------------------------------- */
 
 
 /* ===================================================================
